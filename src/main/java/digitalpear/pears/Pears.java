@@ -19,9 +19,9 @@ public class Pears implements ModInitializer {
 
     public static final Item pear = ItemHelper.createItem(MOD_ID, new ItemFood(142, 4, false), "food.pear", "pear.png");
     public static final Block pearLog = BlockHelper.createBlock(MOD_ID, new BlockLog(900), "log.pear", "pear_log_top.png", "pear_log.png", Block.soundWoodFootstep, 2.0f, 2.0f, 0.0f);
-    public static final Block enchantedPearLog = BlockHelper.createBlock(MOD_ID, new BlockEnchantedLog(901), "log.enchanted_pear", "pear_log_top.png", "enchanted_pear_log.png", Block.soundWoodFootstep, 2.0f, 2.0f, 0.5f);
+    public static final Block enchantedPearLog = BlockHelper.createBlock(MOD_ID, new BlockEnchantedLog(901), "log.enchanted_pear", "pear_log_top.png", "enchanted_pear_log.png", Block.soundWoodFootstep, 2.0f, 2.0f, 0.75f);
 
-    public static final Block pearLeaves = BlockHelper.createBlock(MOD_ID, new BlockLeavesPear(902), "leaves.pear", "pear_leaves.png", Block.soundGrassFootstep, 2.0f, 2.0f, 0.0f);
+    public static final Block pearLeaves = BlockHelper.createBlock(MOD_ID, new BlockLeavesPear(902), "leaves.pear", "pear_leaves.png", Block.soundGrassFootstep, Block.leavesOak.getHardness(), Block.leavesOak.getHardness(), 0.0f);
 
     public static final Block pearSapling = BlockHelper.createBlock(MOD_ID, new BlockSaplingPear(903), "sapling.pear", "pear_sapling.png", Block.soundGrassFootstep, 0.0f, 0.0f, 0.0f);
 

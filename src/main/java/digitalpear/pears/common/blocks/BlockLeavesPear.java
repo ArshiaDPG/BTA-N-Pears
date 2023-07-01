@@ -10,7 +10,6 @@ public class BlockLeavesPear extends BlockLeavesOak {
         super(i);
     }
 
-
     @Override
     public int idDropped(int i, Random random) {
         return random.nextInt(10) == 0 ? Pears.pear.itemID : Pears.pearSapling.blockID;
