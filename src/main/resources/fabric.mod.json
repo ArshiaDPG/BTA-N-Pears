@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "pears",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Pears",
   "description": "This mod aims to help new BTA modders.",
   "authors": [
     "Turnip Labs"
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+        "digitalpear.pears.Pears"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+      "pears.mixins.json"
   ],
 
   "depends": {
